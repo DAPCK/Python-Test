@@ -9,10 +9,17 @@
 #         continue
 #     print(f'"{l}"', end=' ')
 
-x = input("Enter a world: ")
-for i in x:
-    if i == ' ':
-        break
-    print(i, end=' ')
+# x = input("Enter a world: ")
+# for i in x:
+#     if i == ' ':
+#         break
+#     print(i, end=' ')
+# else:
+#     print('\nAll Clear')
+y = 1930
+i = int(input("Inout current year: "))
+while y <= i:
+      print(y, end=' ')
+      y += 1
 else:
-    print('\nAll Clear')
+      print('You are Fucking Highlander!!!')
