@@ -15,4 +15,4 @@ for i in x:
         break
     print(i, end=' ')
 else:
-    print('\nNo spaces')
+    print('\nAll Clear')
