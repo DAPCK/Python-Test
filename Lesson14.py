@@ -2,10 +2,11 @@
 # l2 = list('hello')
 # print(l,l2, sep='\n')
 
-for i in range(1, 10):
-    print(f'Умножение #{i}', end= '\n')
-    for j in range(1, 10):
-        print(f'\t{i} x {j} = {i * j}', end= '\t')
+# for i in range(2, 10):
+#     for j in range(2, 10):
+#         print(f'{i} x {j} = {i * j}\t', end='')
+#     print(' ')
+
 
 # # Создаем диапазон чисел для таблицы умножения
 # numbers = range(1, 10)
